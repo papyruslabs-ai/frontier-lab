@@ -14,3 +14,4 @@ Tracking how well frontier predictions match reality. Updated after each experim
 
 | Date | Prediction | Actual | Score | Notes |
 |------|-----------|--------|-------|-------|
+| 2026-03-06 | Schema 70% ready, pipeline 90% extensible for delegation seeding | Schema FKs 100% correct but operational columns 0% present (net ~60% ready); pipeline 95% extensible (direct parallel architecture) | 0.5 | Schema structural readiness was underestimated (FKs are perfect), but operational readiness was overestimated (no status, no timestamps, no enum). Pipeline extensibility prediction was spot on. |
